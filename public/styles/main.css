@@ -1,0 +1,117 @@
+*{
+    line-height: 150%;
+}
+
+body{
+    background-color: #0C1821;
+    color: white;
+}
+
+.container {
+    background-color: #0C1821;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contentContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.animeIconContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.animeIcons {
+    width: 80px;
+    height: 80px;
+}
+
+.fill-1 {
+    fill: #FDFFB6;
+}
+
+.fill-2 {
+    fill: #FFADAD;
+}
+
+.fill-3 {
+    fill: #CAFFBF;
+}
+
+.fill-4 {
+    fill: #A0C4FF;
+}
+
+.fill-5 {
+    fill: #BDB2FF;
+}
+
+@keyframes rotateZ {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+
+.rotate-Z {
+    animation: rotateZ 3s linear infinite;
+}
+
+.rotate-Z-reverse {
+    animation: rotateZ 5s linear infinite reverse;
+  }
+
+  @keyframes rotateY {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .rotate-Y {
+    animation: rotateY 5s linear infinite;
+  }
+
+  @keyframes rotateX {
+    0% {
+      transform: rotateX(0deg);
+    }
+    100% {
+      transform: rotateX(360deg);
+    }
+  }
+
+  .rotate-X {
+    animation: rotateX 3s linear infinite;
+  }
+
+  
+
+  
+
+
+
+
+
+
+

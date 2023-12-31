@@ -1,0 +1,43 @@
+.forBlogPost {
+    height: 100%;
+    width: 90%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.blogBtns {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #324A5F;
+    border-width: 0px;
+    border-radius: 5px;
+    gap: 8px;
+}
+
+.blogBtns:hover{
+    background-color: #1B2A41;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    margin-top: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 20px;
+}
+
+.svgIcons {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
